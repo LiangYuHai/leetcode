@@ -25,7 +25,7 @@ class Solution:
                 num += d[rs]
 
             if (len(prev) > 0):
-                if (d[prev] == rs):
+                if (d[prev] == d[rs]):
                     continue
                 else:
                     if (d[prev] < d[rs]):
